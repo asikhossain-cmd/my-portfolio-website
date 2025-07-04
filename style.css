@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: radial-gradient(circle, #273c75, #192a56);
+}
+.header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+    
+}
+.header-middle {
+    background-color: ;
+    width: 60vw;
+    height: 60px;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right {
+    background-color: #00b894;
+    width: 30vw;
+    height: 60px;
+    order: 3;
+}
+.header-left {
+    background-color: #6c5ce7;
+    width: 30vw;
+    height: 60px;
+    order: 1;
+}
+.header-middle ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 15px;
+    
+}
